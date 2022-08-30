@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'Pacifico';
+	src:url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src:url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	src:url(../fonts/Montserrat-Bold.ttf);
+}
+
+/*-------------Estilos base--------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat';
+}
+.errors {
+	background: rgb(250,200,200);
+	color: rgb(255,30,30);
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	border: 0;
+	border-radius: 5px;
+	margin-bottom: 6px;
+}
+.form__delivery-background {
+	background-image: url(../img/background.jpg);
+	background-size: 100% 100%;
+}
+.form__delivery-title{
+	color: #fff;
+	padding: 20px;
+	font-size: 30px;
+}
+.form__delivery-container {
+	transform: translateY(30%);
+}
+.form__delivery {
+	width: 330px;
+	margin: auto;
+	background: rgba(255, 255, 255, 1);
+	padding: 30px 18px;
+	box-sizing: border-box;
+}
+.form__delivery-input {
+	width: 100%;
+	height: 37px;
+	border: 1px solid rgb(130, 130, 130);
+	border-radius: ;
+	margin-bottom: 7px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.form__delivery-button {
+	border: 0;
+	color: #fff;
+	padding: 10px;
+	background: rgb(170, 30, 10);
+	width: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+.form__delivery-button:hover {
+	background: rgb(190, 40, 10);
+}
+@media screen and (min-width: 1024px) {
+	.form__delivery-title {
+		font-size: 35px;
+	}
+}

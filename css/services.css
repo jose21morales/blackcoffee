@@ -1,0 +1,86 @@
+/*-------------Estilos del banner-------------*/
+
+.services-banner {
+	margin-top: 59px;
+	background-image: url(../img/coffeeshop.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin-bottom: 80px;
+}
+
+.services-banner__color {
+	background:rgba(0,0,0,.2);
+	padding: 85px 30px;
+}
+
+.services-banner__content {
+	color: #fff;
+	padding: 10px;
+	text-align: ;
+}
+
+.services-banner__title {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.services-banner__txt {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.services-banner__buttons {
+	text-align: ;
+	text-decoration: none;
+	color: #fff;
+	margin: 20px 0 20px 0;
+}
+
+.services-banner__buttons-link {
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #fff;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    margin-right:5px;
+}
+
+.color-green {
+    background: var(--dark-green);
+    border: 1px solid rgba(255,255,255,0);
+    transition: background .3s;
+}
+
+.color-green:hover {
+	background: none;
+	border: 1px solid var(--dark-green);
+}
+
+@media screen and (min-width: 768px) {
+	.services-banner__title {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+/*------------banner-------------*/
+	.services-banner {
+		margin-top: 0;
+	}
+	.services-banner__color {
+		padding: 93px 30px;
+	}
+	.services-banner__title {
+		font-size: 30px;
+	}
+	.services-banner__txt {
+		font-size: 20px;
+		margin-bottom: 80px;
+	}
+	.services-banner__buttons-link {
+		font-size: 18px;
+		padding: 12px;
+	}
+}
